@@ -21,28 +21,35 @@
 <body>
 
 
-        <div id="page-wrapper" class="gray-bg">
-        <div class="row border-bottom">
+        <div  class="gray-bg">
        
-        </div>
-            <div class="row wrapper border-bottom white-bg page-heading">
-                <div class="col-lg-8">
-                    <h2>Sr Usuario : User</h2>
+         <div class="row border-bottom">
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+     
+            <ul class="nav navbar-top-links navbar-right">
+                <li style="padding: 20px">
+                    <span class="m-r-sm text-muted welcome-message">Welcome to INSPINIA+ Admin Theme.</span>
+                </li>
                    
-                </div>
-                <div class="col-lg-4">
-                    <div class="title-action">
-                        <a href="login.html" target="_blank" class="btn btn-primary"><i class="fa fa-times"></i> cerrar Sesion </a>
-                    </div>
-                </div>
-            </div>
+
+
+                <li>
+                    <a href="login.html">
+                        <i class="fa fa-bars"></i> Salir
+                    </a>
+                </li>
+             
+            </ul>
+
+        </nav>
+        </div>
         <div class="row">
             <div class="col-lg-12">
                 <div class="wrapper wrapper-content animated fadeInRight">
                     <div class="ibox-content p-xl">
                             <div class="row">
-                                <div class="col-sm-6">
-                                    <select>
+                                <div class="col-sm-4">
+                                    <select class="select2_demo_1 form-control select2-hidden-accessible">
                                         <option>Enero - 2018</option>
                                         <option>Febrero - 2018</option>
                                         <option>Marzo - 2018</option>
@@ -50,8 +57,8 @@
                                     </select>
                                 </div>
 
-                                <div class="col-sm-6 text-right">
-                                   <button onclick="generarRecibo()">Obtener Recibo</button>
+                                <div class="col-sm-8 text-right">
+                                   <button type="button" class="btn btn-outline btn-warning" onclick="generarRecibo()">Obtener Recibo</button>
                                 </div>
                             </div>
 
