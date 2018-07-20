@@ -44,7 +44,7 @@ h5 {
   padding: 14px 20px 14px 25px;
 }
 .nav.navbar-right > li > a {
-  color: #999c9e;
+  color: #050505;
 }
 .nav > li.active > a {
   color: #ffffff;
@@ -332,7 +332,7 @@ body.mini-navbar .navbar-default .nav > li > .nav-second-level li a {
 }
 .navbar-fixed-top,
 .navbar-static-top {
-  background: #f3f3f4;
+  background: #ffffff;
 }
 .fixed-nav #wrapper {
   margin-top: 0;
@@ -3636,7 +3636,7 @@ video {
   padding: 0 20px;
 }
 .wrapper-content {
-  padding: 20px 10px 40px;
+  padding: 20px 10px 18%;
 }
 #page-wrapper {
   padding: 0 15px;
@@ -4162,7 +4162,7 @@ table.table-mail tr td {
   color: #ed5565;
 }
 .text-muted {
-  color: #888888;
+  color: #050505;
 }
 .text-white {
   color: #ffffff;
@@ -4275,7 +4275,7 @@ a.close-canvas-menu:hover {
   padding: 30px;
 }
 .p-xl {
-  padding: 40px;
+  padding: 80px;
 }
 .p-w-xs {
   padding: 0 10px;
